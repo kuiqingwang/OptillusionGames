@@ -9,6 +9,7 @@ public class controller : MonoBehaviour
     public GameObject bar;
     public GameObject runLittleManAnimation;
     public GameObject blackScene1;
+    public GameObject countDownClockAnimation;
     public PlayableDirector timeline;
     bool unlock = false;
     public void playLittleMan(){
@@ -29,6 +30,16 @@ public class controller : MonoBehaviour
 }
     public void unlockMouseButton(){
         unlock=true;
+    }
+    public void levelfinish(){
+        timeline.playableGraph.GetRootPlayable(0).SetSpeed(0);
+        Animator countDownClock = countDownClockAnimation.GetComponent<Animator>();
+        countDownClock.SetBool("Win",true);
+    }
+    public void nextlevel(){
+        timeline.playableGraph.GetRootPlayable(0).SetSpeed(1);
+        Animator countDownClock = countDownClockAnimation.GetComponent<Animator>();
+        countDownClock.SetBool("Win",false);
     }
 
     void Update()

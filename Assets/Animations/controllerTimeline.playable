@@ -22,7 +22,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 47.883333333333326
+    m_Start: 19.55000000000004
     m_ClipIn: 0
     m_Asset: {fileID: -5351246731195474414}
     m_Duration: 90
@@ -156,7 +156,7 @@ MonoBehaviour:
     m_Recordable: 0
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
-    m_PostExtrapolationTime: 30.88333333333332
+    m_PostExtrapolationTime: 2.5500000000000327
     m_PreExtrapolationTime: 2
     m_DisplayName: clockCountDown
   m_Markers:
@@ -215,10 +215,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 45.9176507285641
+  m_Time: 17.584317395230812
   m_Retroactive: 0
   m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: 6261a0e5282a2ad45a37c11fee5a6ba5, type: 2}
+--- !u!114 &-8324648081057354429
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
+  m_Name: Signal Emitter
+  m_EditorClassIdentifier: 
+  m_Time: 17.000000000000007
+  m_Retroactive: 0
+  m_EmitOnce: 0
+  m_Asset: {fileID: 11400000, guid: 94807750217e2b2428a81c67c04dce96, type: 2}
+--- !u!114 &-7796768941572391224
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b46e36075dd1c124a8422c228e75e1fb, type: 3}
+  m_Name: Signal Track (3)
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 0
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips: []
+  m_Markers:
+    m_Objects:
+    - {fileID: -8324648081057354429}
 --- !u!114 &-7434644231919339170
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -277,7 +317,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 53.22681656276504
+  m_Time: 24.89348322943175
   m_Retroactive: 0
   m_EmitOnce: 1
   m_Asset: {fileID: 11400000, guid: f6eb5d5b72a4be644888f55262f8316b, type: 2}
@@ -303,7 +343,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 28.33333333333329
+    m_Start: 0
     m_ClipIn: 0
     m_Asset: {fileID: 1666152406865154177}
     m_Duration: 14
@@ -425,7 +465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15c38f6fa1940124db1ab7f6fe7268d1, type: 3}
   m_Name: Signal Emitter
   m_EditorClassIdentifier: 
-  m_Time: 47.74319592731388
+  m_Time: 19.40986259398059
   m_Retroactive: 0
   m_EmitOnce: 0
   m_Asset: {fileID: 11400000, guid: bcd650948a899f641be77b6310abe6f1, type: 2}
@@ -560,7 +600,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 47.98431739523079
+    m_Start: 19.650984061897503
     m_ClipIn: 0
     m_Asset: {fileID: 4961438316318923346}
     m_Duration: 260.1735724096341
@@ -656,6 +696,7 @@ MonoBehaviour:
   - {fileID: 5285816900428973413}
   - {fileID: -1768994334417839894}
   - {fileID: -4860089192162402745}
+  - {fileID: -7796768941572391224}
   m_FixedDuration: 0
   m_EditorSettings:
     m_Framerate: 60
@@ -706,7 +747,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 47.74319592731388
+    m_Start: 19.40986259398059
     m_ClipIn: 0
     m_Asset: {fileID: 2550231096681674709}
     m_Duration: 260.41469387755103
@@ -843,7 +884,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 46.91765072856411
+    m_Start: 18.584317395230826
     m_ClipIn: 0
     m_Asset: {fileID: 8392957867419708107}
     m_Duration: 1.3333335166666647
@@ -909,7 +950,7 @@ MonoBehaviour:
     m_PostExtrapolationMode: 1
     m_PreExtrapolationMode: 1
     m_PostExtrapolationTime: Infinity
-    m_PreExtrapolationTime: 46.91765072856411
+    m_PreExtrapolationTime: 18.584317395230826
     m_DisplayName: startHand
   m_Markers:
     m_Objects: []
@@ -1113,7 +1154,7 @@ MonoBehaviour:
   m_Children: []
   m_Clips:
   - m_Version: 1
-    m_Start: 45.4176507285641
+    m_Start: 17.084317395230812
     m_ClipIn: 0
     m_Asset: {fileID: -6694568220143097843}
     m_Duration: 2.216666666666667
