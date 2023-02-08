@@ -5,11 +5,22 @@ using UnityEngine;
 public class CountDownClockAnimatorWin : StateMachineBehaviour
 {
     private GameObject controller;
+    private GameObject levelfinish;
+    private GameObject reject;
+    public bool win;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        controller = GameObject.Find("controller");
-        controller.GetComponent<controller>().nextlevel();
+        if(win){
+            controller = GameObject.Find("controller");
+            controller.GetComponent<controller>().nextlevel();
+            //levelfinish = GameObject.Find("levelfinish");
+            //levelfinish.GetComponent<AudioSource>().Play();
+        }
+        else{
+            reject = GameObject.Find("reject");
+            reject.GetComponent<AudioSource>().Play();
+        }
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
